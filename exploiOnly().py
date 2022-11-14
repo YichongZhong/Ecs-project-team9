@@ -14,13 +14,13 @@ day2 = tuple([random.normalvariate(H2, D2)]) #caf 2 happiness on second day
 day3 = tuple([random.normalvariate(H3, D3)]) #caf 3 happiness on thrid day
 
 for i in range(297):
-    happy1 = sum(day1)
+    happy1 = sum(day1) #finds the sum of caf 1 if it is the best
 
 for i in range(297):
-    happy2 = sum(day2)
+    happy2 = sum(day2) #finds the sum of caf 2
 
 for i in range(297):
-    happy3 = sum(day3)
+    happy3 = sum(day3) #finds the sum of caf 3
 
     
 #Finds the best cafeteria
